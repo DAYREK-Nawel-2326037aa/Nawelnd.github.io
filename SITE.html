@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> ESCRIME </title>
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- === Barre De Navigation === -->
+    <nav class="navbar">
+        <h1 class="logo"> Aventure</h1>
+        <u1 class="nav-links">
+            <li class="active"> <a href="#"></a> Home </li>
+            <li> <a href="#"></a> Histoire </li>
+            <li> <a href="#"></a> Discipline</li>
+            <li> <a href="#"></a> A propos </li>
+            <li class="ctn"> <a href="#"></a> Créateur </li>
+        </u1>
+        <img src="./Image/iconmenu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2> Explore L'histoire de l'Escrime </h2>
+            <div class="line"></div>
+            <h1> UN MERVEILLEUX SPORT</h1>
+            <a href="#" class="ctn">En savoir plus </a>
+        </div>
+    </header>
+    <!-- === HISTOIRE ===-->
+    <section class="histoire">
+        <div class="title">
+            <h1> Histoire </h1>
+            <div class="line"> </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./Image/combat-2.jpeg" alt="">
+                <h4> Combat stratégique </h4>
+                <p> L'escrime moderne est un sport stratégique et rapide où les escrimeurs utilisent des armes comme l'épée,le fleuret ou le sabre pour marquer des touches tout en évitant d'être touchés.</p>
+                <a href="#" class="ctn"> En savoir plus</a>
+            </div>
+            <div class="col">
+                <img src="./Image/CombatAvant-2.jpeg" alt="">
+                <h4> Combat Brutaux  </h4>
+                <p> Dans l'Antiquité, les combats d'escrime étaient souvent des affrontements brutaux impliquant des armes comme des épées, des boucliers et des tactiques axées sur la force physique et la confrontation directe.</p>
+                <a href="#" class="ctn"> En savoir plus</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1> Explorer l'escrime </h1>
+            <div class="line"> </div>
+            <p> Voici une vidéo explicative sur l'escrime. Bon Visionage !! </p>
+            <a href="lien_de_votre_video.mp4" class="video-link">Regarder la vidéo</a>
+        </div>
+    </section>
+    <script>const menuBtn= document.querySelector('.menu-btn')
+    const navlinks= document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })</script>
+</body>
