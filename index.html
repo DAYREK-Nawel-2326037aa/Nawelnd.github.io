@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> ESCRIME </title>
+    <!-- === CSS === --> 
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <!-- === Barre De Navigation === -->
+    <nav class="navbar">
+        <h1 class="logo"> Aventure</h1>
+        <u1 class="nav-links">
+            <li class="active"> <a href ="index.html"> Home </a> </li>
+            <li> <a href ="Histoire.html"> Histoire </a> </li>
+            <li> <a href ="Explore.html"> Discipline</a> </li>
+            <li> <a href ="Avis.html"> Avis </a> </li>
+        </u1>
+        <img src="./Image/iconmenu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2> Explore L'histoire de l'Escrime </h2>
+            <div class="line"></div>
+            <h1> UN MERVEILLEUX SPORT</h1>
+        </div>
+    </header>
+    <script> 
+        const menuBtn= document.querySelector('.menu-btn')
+        const navlinks= document.querySelector('.nav-links')
+        
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+        </script>
+</body>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> ESCRIME </title>
+    <!-- === CSS === --> 
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<nav class="navbar">
+    <h1 class="logo"> Aventure</h1>
+    <u1 class="nav-links">
+        <li class="active"> <a href ="index.html"> Home </a> </li>
+        <li> <a href ="Histoire.html"> Histoire </a> </li>
+        <li> <a href ="Explore.html"> Discipline</a> </li>
+        <li> <a href ="Avis.html"> Avis </a> </li>
+    </u1>
+    <img src="./Image/iconmenu.png" alt="" class="menu-btn">
+</nav>
+<body>
+</section>
+<section class="explore">
+<div class="explore-content">
+    <h1> Explorer l'escrime </h1>
+    <div class="line"> </div>
+    <p> Voici une vidéo explicative sur l'escrime. Bon Visionage !! </p>
+    <iframe class="ll" width="510" height="410" src=".https://www.youtube.com/watch?v=XXFLk3u8mlM&t=259s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+</div>
+</section>
+<script> 
+    const menuBtn= document.querySelector('.menu-btn')
+    const navlinks= document.querySelector('.nav-links')
+    
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+    </script>
+</body>
