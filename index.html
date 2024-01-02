@@ -4,6 +4,7 @@
     <title> ESCRIME </title>
     <!-- === CSS === --> 
     <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" id="colorCssFile" href="style.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/94/94186.png ">
 </head>
 <body>
@@ -15,6 +16,11 @@
             <li> <a href ="Histoire.html"> Histoire </a> </li>
             <li> <a href ="Explore.html"> Discipline</a> </li>
             <li> <a href ="Avis.html"> Avis </a> </li>
+            <li>
+					<input type="checkbox" id="darkmode-toggle"/>
+					<label for="darkmode-toggle"></label>
+
+					</li>
         </u1>
         <img src="./Image/iconmenu.png" alt="" class="menu-btn">
     </nav>
@@ -33,4 +39,5 @@
             navlinks.classList.toggle('mobile-menu')
         })
         </script>
+    <script src="switch.js"></script>
 </body>
