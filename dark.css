@@ -31,7 +31,7 @@ body, html {
 	width: 100%;
 	justify-content: space-between;
 	padding: 20px;
-	color: black;
+	color: #582900;
 }
 
 .nav-links {
@@ -141,7 +141,7 @@ h4 {
 }
 
 p {
-	color: black;
+	color: #DCDCDC;
 	padding: 0px 40px;
 }
 
