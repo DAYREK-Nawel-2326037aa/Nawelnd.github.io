@@ -46,7 +46,7 @@ body, html {
 header {
 	width: 100vw;
 	height: 100vh;
-	background-color: #808080;
+	background-image: url('black.jpg');
 	background-position: bottom;
 	background-size: cover;
 	display: flex;
