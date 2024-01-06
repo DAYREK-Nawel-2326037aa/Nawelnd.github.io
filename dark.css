@@ -46,7 +46,7 @@ body, html {
 header {
 	width: 100vw;
 	height: 100vh;
-	background-color: DarkGray;
+	background-image: url('https://th.bing.com/th/id/R.94987e674dbf100256e71a67b289c03b?rik=0jgP2RMn4r94CA&pid=ImgRaw&r=0') ;
 	background-position: bottom;
 	background-size: cover;
 	display: flex;
@@ -98,7 +98,7 @@ header {
 .histoire {
 	width: 100vw;
 	height: 100vh;
-	background-image: url('6506569.jpg');
+	background-image: url('https://th.bing.com/th/id/R.94987e674dbf100256e71a67b289c03b?rik=0jgP2RMn4r94CA&pid=ImgRaw&r=0');
 	background-position: bottom;
 	background-size: cover;
 }
