@@ -163,7 +163,7 @@ p {
 .explore-content {
 	width: 100%;
 	padding: 0px 40px;
-	color: black;
+	color: whitesmoke;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
