@@ -1,27 +1,29 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title> ESCRIME </title>
     <!-- === CSS === --> 
     <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" id="colorCssFile" href="style.css">
+    <link rel="stylesheet" id="colorCssFile" href="style.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/94/94186.png ">
 </head>
+
 <body>
     <!-- === Barre De Navigation === -->
     <nav class="navbar">
-        <h1 class="logo"> Aventure</h1>
-        <u1 class="barre_nav">
+        <h2 class="logo"> Aventure</h2>
+        <ul class="barre_nav">
             <li class="active"> <a href ="index.html"> Home </a> </li>
             <li> <a href ="Histoire.html"> Histoire </a> </li>
             <li> <a href ="Explore.html"> Discipline</a> </li>
             <li> <a href ="Avis.html"> Avis </a> </li>
             <li>
-					<input type="checkbox" id="darkmode-toggle"/>
-					<label for="darkmode-toggle"></label>
+                <input type="checkbox" id="darkmode-toggle">
+                <label for="darkmode-toggle"></label>
 
-					</li>
-        </u1>
+            </li>
+        </ul>
         <img src="barre.png" alt="" class="menu-btn">
     </nav>
     <header>
@@ -34,7 +36,7 @@
     <script> 
         const menuBtn= document.querySelector('.menu-btn')
         const navlinks= document.querySelector('.barre_nav')
-        
+
         menuBtn.addEventListener('click',()=>{
             navlinks.classList.toggle('mobile-menu')
         })
