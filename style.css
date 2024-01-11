@@ -201,6 +201,9 @@ p{
     .barre_nav li{
         margin: 50px auto; 
     }
+    .ll {
+        width: 80%;
+    }
 }
 
 /* . Histoire */
