@@ -89,7 +89,7 @@ header {
 
 .histoire{
     width : 100vw;
-    height : 350vw;
+    height : 100vh;
     background-image: url(6506569.webp);
     background-position: bottom;
     background-size: cover;
@@ -207,6 +207,9 @@ p{
 }
 
 /* . Histoire */
+.histoire{
+    height : 350vw;
+}
 .row {
     flex-direction: column ;
 }
