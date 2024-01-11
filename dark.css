@@ -67,7 +67,7 @@ header {
 .line {
 	width: 150px;
 	height: 4px;
-	background: whitesmoke;
+	background:#FFFFFF;
 	margin: 10px auto;
 	border-radius: 5px;
 }
@@ -80,7 +80,7 @@ header {
 
 .ctn {
 	padding: 8px 15px;
-	background: #1c03fc;
+	background:#FFFFFF;
 	border-radius: 40px;
 	color: #808080;
 }
