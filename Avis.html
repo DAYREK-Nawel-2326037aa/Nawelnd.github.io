@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title> ESCRIME </title>
@@ -7,24 +8,23 @@
     <link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" id="colorCssFile" href="style.css">
 </head>
+<body>
 <nav class="navbar">
     <h1 class="logo"> Aventure</h1>
-    <u1 class="barre_nav">
+    <ul class="barre_nav">
         <li class="active"> <a href ="index.html"> Home </a> </li>
         <li> <a href ="Histoire.html"> Histoire </a> </li>
         <li> <a href ="Explore.html"> Discipline</a> </li>
         <li> <a href ="Avis.html"> Avis </a> </li>
 	<li>
-		<input type="checkbox" id="darkmode-toggle"/>
+		<input type="checkbox" id="darkmode-toggle">
 		<label for="darkmode-toggle"></label>
 
 	</li>
-    </u1>
+    </ul>
     <img src="barre.png" alt="" class="menu-btn">
 </nav>
-<body>
-</section>
-<section class="explore">
+<div class="explore">
     <div class="bbb">
 		<form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
 			<p>
@@ -37,7 +37,7 @@
 			</p>
 		</form>
 	</div>
-</section>
+</div>
 <script> 
     const menuBtn= document.querySelector('.menu-btn')
     const navlinks= document.querySelector('.barre_nav')
@@ -48,3 +48,4 @@
     </script>
 	  <script src="switch.js"></script>
 </body>
+</html>
