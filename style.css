@@ -204,12 +204,12 @@ p{
     .ll {
         width: 80%;
     }
+    .histoire{
+    height : 350vw;
+}
 }
 
 /* . Histoire */
-.histoire{
-    height : 350vw;
-}
 .row {
     flex-direction: column ;
 }
