@@ -96,7 +96,8 @@ header {
 }
 
 .title {
-    text-align: center;
+    text-align: left;
+    padding : 1em;
     font-size: 4vmin;
     color: #582900;
     margin-top: 0%;
