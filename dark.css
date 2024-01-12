@@ -104,7 +104,8 @@ header {
 }
 
 .title {
-	text-align: center;
+	text-align: start;
+	padding: 1em;
 	font-size: 4vmin;
 	color: whitesmoke;
 	margin-top: 0%;
