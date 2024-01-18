@@ -1,48 +1,82 @@
-<!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> ESCRIME </title>
+    <title> Coupe du Monde </title>
+    <link rel="icon" href="image_site.png">
     <!-- === CSS === --> 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" id="colorCssFile" href="style.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" id="colorCssFile" href="./styles.css">
     <link rel="icon" href="image_site.png">
 </head>
 <body>
-<nav class="navbar">
-    <ul class="barre_nav">
-        <li class="active"> <a href ="index.html"> Home </a> </li>
-        <li> <a href ="Histoire.html"> Histoire </a> </li>
-        <li> <a href ="Explore.html"> Discipline</a> </li>
-        <li> <a href ="Avis.html"> Avis </a> </li>
-	<li>
-		<input type="checkbox" id="darkmode-toggle">
-		<label for="darkmode-toggle"></label>
-
-	</li>
-    </ul>
-    <img src="barre.png" alt="" class="menu-btn">
-</nav>
-<section class="histoire"> 
+    <!-- === Barre De Navigation === -->
+    <nav class="navbar">
+        <ul class="barre_nav">
+            <li class="active"> <a href ="Coupe.html"> Accueil </a> </li>
+            <li> <a href ="Histoire.html"> Inscription </a> </li>
+            <li> <a href ="Explore.html"> Sport </a> </li>
+            <li> <a href ="Avis.html"> Renseignement </a> </li>
+            <li>
+                <input type="checkbox" id="darkmode-toggle">
+                <label for="darkmode-toggle"></label>
+            </li>
+        </ul>
+        <img src="./barre.png" alt="" class="menu-btn">
+    </nav>
+    <section class="histoire"> 
     <div class="title">
-        <h1> Histoire </h1>
+        <h1> Les sports </h1>
     </div>
 <div class="row">
-    <div class="col">
-        <img src="combat-2.webp" alt="">
-        <h4> Combat stratégique </h4>
-        <p> L'escrime moderne est un sport stratégique et rapide où les escrimeurs utilisent des armes comme l'épée,le fleuret ou le sabre pour marquer des touches tout en évitant d'être touchés.</p>
-      <a href="https://www.selyon.fr/info-escrime/la-technique/" class="ctn"> En savoir plus</a>
+    <h2> Football </h2>
+    <img src="./Football.webp" alt="Football" class="photo" width="340" height="280">
+		<a href="RegleFootball.html" class="ctn"> Voir les règles</a>
     </div>
-    <div class="col">
-        <img src="CombatAvant-2.webp" alt="">
-        <h4> Combat Brutaux  </h4>
-        <p> Dans l'Antiquité, les combats d'escrime étaient souvent des affrontements brutaux impliquant des armes comme des épées, des boucliers et des tactiques axées sur la force physique et la confrontation directe.</p>
-     <a href="https://www.youtube.com/watch?v=2LSpxqjTTlk" class="ctn"> En savoir plus</a>
-    </div>
-</div>
+    <div class="row">
+        <h2> Handball </h2>
+        <img src="./Football.webp" alt="Football" class="photo" width="340" height="280">
+            <a href="RegleFootball.html" class="ctn"> Voir les règles</a>
+        </div>
+        <div class="row">
+            <h2> Touch Rugby</h2>
+            <img src="./Football.webp" alt="Football" class="photo" width="340" height="280">
+                <a href="RegleFootball.html" class="ctn"> Voir les règles</a>
+                <h2> Tennis </h2>
+                <img src="./Football.webp" alt="Football" class="photo" width="340" height="280">
+                    <a href="RegleFootball.html" class="ctn"> Voir les règles</a>
+                    <h2> Volley </h2>
+                    <img src="./Football.webp" alt="Football" class="photo" width="340" height="280">
+                        <a href="RegleFootball.html" class="ctn"> Voir les règles</a>
+                    </div>
+                    <div class="2">
+                        <h2> Tenis de table</h2>
+                        <img src="./Football.webp" alt="Football" class="photo" width="340" height="280">
+                            <a href="RegleFootball.html" class="ctn"> Voir les règles</a>
+                            <h2> Basketball </h2>
+                            <img src="./Football.webp" alt="Football" class="photo" width="340" height="280">
+                                <a href="RegleFootball.html" class="ctn"> Voir les règles</a>
+                            </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script> 
     const menuBtn= document.querySelector('.menu-btn')
     const navlinks= document.querySelector('.barre_nav')
@@ -54,4 +88,3 @@
 	<script src="switch.js"></script>
 </body>
 </html>
-
